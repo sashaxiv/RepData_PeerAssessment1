@@ -263,9 +263,10 @@ We can also see, as a consecuence, higher frequency counts in the histogram at t
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
-# helper function to decide if a day is a week day or not
+
 
 ```r
+# helper function to decide if a day is a week day or not
 isWeekend <- function(d) {
     days <- weekdays(d)
     ifelse (days == "sábado" | days == "domingo", "weekend", "weekday")

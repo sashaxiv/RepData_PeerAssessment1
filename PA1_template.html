@@ -514,10 +514,8 @@ dev.off()</code></pre>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>
-</div>
-<div id="helper-function-to-decide-if-a-day-is-a-week-day-or-not" class="section level1">
-<h1>helper function to decide if a day is a week day or not</h1>
-<pre class="r"><code>isWeekend &lt;- function(d) {
+<pre class="r"><code># helper function to decide if a day is a week day or not
+isWeekend &lt;- function(d) {
     days &lt;- weekdays(d)
     ifelse (days == &quot;sábado&quot; | days == &quot;domingo&quot;, &quot;weekend&quot;, &quot;weekday&quot;)
 }
