@@ -145,7 +145,7 @@ median(dataSummed[[1]])
 median(dataFilledNASummed[[1]])
 ```
 
-*Conclussion: The mean doesn't change, and the median has an insignificant change. Actually, new median is equal to mean as a result of filling the missing data for the intervals with means.</br>
+* Conclussion: The mean doesn't change, and the median has an insignificant change. Actually, new median is equal to mean as a result of filling the missing data for the intervals with means.</br>
 
 We can also see, as a consecuence, higher frequency counts in the histogram at the center region (blue histogram plot at the beginning has a lower y-axis).
 
